@@ -4,7 +4,7 @@ Window* window = nullptr;
 
 Window::Window()
 {
-
+	// TODO: implement later
 }
 
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
@@ -101,6 +101,16 @@ bool Window::isRun()
 	return m_is_run;
 }
 
+void Window::onCreate()
+{
+	// TODO: implement later
+}
+
+void Window::onUpdate()
+{
+	// TODO: implement later
+}
+
 void Window::onDestroy()
 {
 	m_is_run = false;
@@ -108,5 +118,5 @@ void Window::onDestroy()
 
 Window::~Window()
 {
-
+	// TODO: implement later
 }
